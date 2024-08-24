@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        RewardValue rewardValue1 = new RewardValue(100.0); // Create a RewardValue with a cash value of 100.0
+        System.out.println("Cash Value: " + rewardValue1.getCashValue());
+        System.out.println("Miles Value: " + rewardValue1.getMilesValue());
+
+        RewardValue rewardValue2 = new RewardValue(10000); // Create a RewardValue with a miles value of 10000
+        System.out.println("Cash Value: " + rewardValue2.getCashValue());
+        System.out.println("Miles Value: " + rewardValue2.getMilesValue());
+    }
+}
